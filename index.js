@@ -1,4 +1,4 @@
-let myLeads = ["www.amazon.com", "www.myleads.com"]
+let myLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
@@ -8,13 +8,18 @@ inputBtn.addEventListener("click", function(){
   
    myLeads.push(inputEl.value)
    console.log(myLeads)
+   renderLeads()
 })
 
+function renderLeads(){
+let listItems =  ""
  for(let i = 0; i < myLeads.length; i++){
-         console.log(myLeads)
-         ulEl.innerHTML += "<li>" + myLeads[i] + "</li> "
-
-        //  let list = document.createElement("li")
-        //  list.textContent = myLeads[i]
-        //  ulEl.append(li)
+         listItems += "<li>" + myLeads[i] + "</li> "
+         console.log(listItems)
+        // const list = document.createElement("li")
+        // list.textContent = myLeads[i]
+        // ulEl.append(list)
  }
+ ulEl.innerHTML =listItems
+}
+    
