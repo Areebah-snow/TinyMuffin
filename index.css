@@ -22,4 +22,18 @@ button{
     padding: 10px 15px;
     border-radius: 2px;
     font-size: 1rem;
+} 
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+li{
+    margin: 5px;
+}
+
+li a {
+    color:#5f9341 ;
+  
 }
