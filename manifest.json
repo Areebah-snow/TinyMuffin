@@ -4,6 +4,6 @@
     "name": "LinkMe",
     "action" : {
         "default_popup": "index.html",
-        "default_icon": "♠"
+        "default_icon": "icon.png"
     }
 }
