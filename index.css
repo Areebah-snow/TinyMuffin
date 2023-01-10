@@ -7,20 +7,33 @@ body{
 
 input{
     
-width: 50%;
+width: 100%;
 box-sizing: border-box;
 padding: 10px;
 border: 1px solid  #5f9341;
+margin-bottom: 4px;
 
 }
-button{
+
+button#input-btn,#tab-btn{
     border: none;
     background-color: #5f9341;
     color: white;
     font-weight: bold;
-    display: block;
+    
     margin-top: 3px;
-    padding: 10px 15px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+#delete-btn{
+    border: 1px solid #5f9341;
+    background-color: #ffffff;
+    color: #5f9341;
+    font-weight: bold;
+    
+    margin-top: 3px;
+    padding: 10px 20px;
     border-radius: 2px;
     font-size: 1rem;
 } 
